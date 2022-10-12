@@ -25,7 +25,9 @@ def num_sys(x,a):
                 break  
         return B
 
-
+x=input("What number do you want to represent?")
+a=input("In what numerical basis?")
+print(num_sys(x,a))
 ##while True:
 ##        x=int(input("Enter the number do you want to represent?"))
 ##        a=int(input("In what base a do you represent it?:"))
