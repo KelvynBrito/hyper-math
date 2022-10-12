@@ -21,7 +21,7 @@ def num_sys(x,a):
             B.append(int(s))
             q=s
             i+=1
-            if i>100:
+            if i>50:
                 break  
         return B
 
