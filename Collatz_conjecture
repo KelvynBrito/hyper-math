@@ -1,0 +1,23 @@
+from matplotlib.pyplot import *
+
+b=int(input("n even: n->n/b: for  b=?"))
+c=int(input("n odd: n->c*n+1: for  c=?"))
+
+
+i=1
+while True:
+    if n=="c":
+        break
+    n=int(input("What the seed?"))
+    old_n = n
+    while 1< 1000 and n!=1:
+        if n%2 == 0: # if n is even
+           n = n/b    #STANDARD: b=2
+        else:
+           n = c*n+1  #STANDARD: c=3     IMPLIES n-->  1
+        i += 1
+        # print(A)
+        plot([i-1, i],[old_n,n],'-ob')
+        old_n = n
+    show()
+ 
